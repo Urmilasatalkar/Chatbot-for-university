@@ -1,0 +1,133 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - weather
+  - creators
+  - College_Hours
+  - courses
+  - fees
+  - hostel_fees
+  - college_facilities
+  - placement
+  - cutoff
+  - lost_marksheet
+  - certification_recovery_fees
+  - scholarships
+  - scholarships_documents
+  - result
+  - re-evaluation
+  - transcript
+  - transcript_fees
+  - scholarship_process
+  - migration
+  - migration_fee
+  - migration_form_duration
+  - scholarship_eligibility
+  - phd_registration
+
+responses:
+  utter_weather:
+  - text: "The Weather is good today"
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_creators:
+  - text: "I am AI powered Chatbot For University, Developed by College Students Rucha Rudrabhate and Urmila Satalkar"
+
+  utter_College_Hours:
+  - text: "Sanjivani College operates from Monday to Saturday, with working hours from 10:00 a.m. to 5:30 p.m. If you have any more questions or need further assistance, feel free to ask!"
+
+  utter_courses:
+  - text: "At Sanjivani College of Engineering, we offer B.Tech. degrees in various branches, including:\n 1.Computer Engineering\n 2.Information Technology Engineering\n 3.Electronics and Computer Science Engineering\n 3.Mechanical Engineering\n 4.Electrical Engineering\n 5.Civil Engineering\n 6.Structural Engineering\n Explore the diverse opportunities each branch provides for a comprehensive engineering education."
+
+  utter_courses_more:
+    - text: "Additionally, we provide programs in M.tech, MBA, BBA, Commerce, Pharmacy, and Junior College.\n If you have specific questions about any of these courses or need more details, feel free to ask! "
+
+  utter_fees:
+  - text: "College fees are ₹150000 per year. If you have any questions about payment plans, financial aid, or need more details, feel free to ask. We're here to assist you!! "
+
+  utter_hostel_fees:
+  - text: "The hostel fee is ₹30,000 per year. If you have any further questions about accommodation or facilities, feel free to ask. We're here to assist you!"
+
+  utter_college_facilities:
+  - text: "Sanjivani College of Engineering offers a range of state-of-the-art facilities to enhance your academic experience. Our campus features well-equipped laboratories, modern classrooms, a library stocked with a vast collection of resources, sports facilities, and dedicated spaces for extracurricular activities. Additionally, we provide a comfortable and secure hostel for students. If you have specific inquiries about any facility or need more details, feel free to ask!"
+
+  utter_placement:
+  - text: "Sanjivani College of Engineering has a strong Placement Committee ensuring full-time placement opportunities for eligible students. Our record reflects industry trust in our graduates. We focus on all-round student development, including soft skills and pre-placement training. Our commitment is to contribute to an Enlightened & Prosperous India through our students"
+
+  utter_more_about_placement:
+  - text: "For more information Visit our Site -\n https://sanjivanicoe.org.in/index.php/placements/placement-overviews "
+
+  utter_cutoff:
+  - text: "Last 3 years cutoff\n \t\t\t\t 2023	      2022	      2021\n B.Tech Computer Engineering 91.01	      89.52	      87.7\n B.Tech Mechanical Engineering 66.82	      59.52	      38.04\n B.Tech Electrical Engineering 71.98	      68.57	      57.24\n B.Tech Information Technology 87.25	      87.08	      84.09"
+
+  utter_lost_marksheet:
+  - text: "To regain a lost mark sheet, please follow these steps:\n1. Contact the university administration office.\n2. Provide personal details and information about the lost mark sheet.\n3. File a formal request or complaint, if necessary.\n4. Be prepared to verify your identity with relevant documents.\n5. Check if there are any fees for the reissuance process.\n6. Allow time for processing and inquire about the estimated timeline.\n7. Follow instructions to collect the duplicate mark sheet once processed.\nDuplicate passing certificate will be sent to the candidate after one month from the date of filling up the application form.\n for more information visit - \nhttp://www.unipune.ac.in/university_files/dup_passing_certificate.htm#:~:text=Candidate%20has%20to%20Apply%20Online,final%20year%20statement%20of%20marks.\nIf you have any specific concerns or need further assistance, feel free to ask."
+
+  utter_certification_recovery_fees:
+  - text: "The certification recovery fee is as follows for different certification. \nIf you've lost your certification and need a replacement, this fee is applicable. \nSr. No.        Description                                  Non Professional Courses Fee (in Rs.)     Professional Courses Fee (in Rs.)\n1    Degree PG Degree/ Diploma Certificate (within 5 years)               290                                       385 \n2    Late fee after prescribed date 220  300 \n3    Degree, PG Degree/ Diploma Certificate (passed previous 5 years)     550                                       735 \n4    Application received after Convocation                               530                                       700 \n     (Special fees in Addition to regular charges)        \n5    Supplementary (within 5 years)                                       820                                       1090  \n6    Supplementary (passed previous 5 years)                              1080                                      1430"
+
+  utter_scholarships:
+  - text: "The university offers various scholarships for academic excellence, rewarding outstanding achievements in coursework. \nThis includes following scholarships , provides financial support to high-performing students.\n1. The UK India Education and Research Initiative (UKIERI) Scholarship for more information.\n2. UK government's global scholarship Program of Chevening scholarships for more information.\n3. Regarding Advertisement of Central Government Post Matric Scholarship for Minority Students Academic Year 2014-15.\n4. Circular Regarding M.Phil/Ph.D. Stipend for College Student.\n5. Regarding Scholarship for Handicap, EBC, PTC, STC, Ex-Serviceman, Minority, National Meritorial, Non-Hindi & Ekalya for 2013-14.\n6. Circular Regarding GOI Scholarship/Freeship Forms Information.\n7. Arthik Durbal Ghatak Scholarship 2012-13\n8. Post Matric Scholarship 2012-13\n9. Krantijyoti Savitrimata Phule Scholarship 2012-13"
+
+  utter_scholarships_documents:
+  - text: "Thank you for your interest in applying for a scholarship at our university. To complete the scholarship application process, please ensure you have the following documents ready:\n\n1. Aadhar Card\n2. School/College Leaving Certificate\n3. Cap allotment letter\n4. College fee receipt\n5. Marksheet of SSC (10th std)\n6. Marksheet of HSC (12th)\n7. Previous Year Marksheet\n8. All semester Marksheets\n9. Cast Certificate\n10. Income Certificate of current financial year (from Tehsildar)\n11. Bank Passbook\n12. Self Declaration\n13. Domicile Certificate\n14. Rashan Card (If Required)\n15. Hostel Certificate (If Required)\n16. Gap Certificate (If Required)\n17. Handicap Certificate (If Required)\n\n Please ensure that all documents are accurate and up-to-date. If you have any specific requirements or additional documents needed for the particular scholarship you are applying for, refer to the scholarship guidelines or visit \nhttp://www.unipune.ac.in/university_files/scholarships-old.htm"
+
+  utter_result:
+  - text: "Yes, you can download your marksheet from the university website.\nFollow below steps to view your results\nStep 1: Visit the official website- www.unipune.ac.in\nStep 2: Check for the student corner click on the result option available there \nStep 3: Click on \"Online Result\"\nStep 4: Select your course and Click on \"Go for Result\" option given on the right side.\nStep 5: Enter the seat number and mother's name and click on “Check Result”\nStep 6: Check the results and download it"
+
+  utter_re-evaluation:
+  - text: "To apply for re-evaluation, follow these steps:\n1. You can purchase the application form from any affiliated college or recognized institute within the University's jurisdiction. The forms are also available at the University Office and its sub-centers in Nashik and Ahmednagar.\n2. Fill in the application form with accurate information, including your seat number, subject code, theory paper details, marks obtained, and examination center. Attach a Xerox copy of the statement of marks for the concerned examination.\n3. Regular candidates should pay fees through their respective college or institute. External candidates can pay by Challan in Bank of Maharashtra, University Branch, Ext. Counter. If applying by post, include a Demand Draft in favor of 'REGISTRAR, UNIVERSITY OF PUNE.\n4. Submit only one application for each examination. Separate applications are required for different exams. Results for regular candidates will be sent to their college, while external candidates will receive results by post. Be aware that the revaluation result is final and binding."
+
+  utter_transcript:
+  - text: "To apply for transcripts, you need to follow a specific process,\n1. Online Application Form.\n2. Self attested Xerox copies of all years Statement of Marks of Pune University for concern years (ATTESTATION IS COMPULSORY).\n3. Online Payment Receipt / Bank Challan Paid Receipt.\n For More details visit - https://bcud.unipune.ac.in/CERTIFICATE/GeneralPages/Transcript_online.aspx"
+
+  utter_transcript_fees:
+  - text: "The transcript fees depend on the university's policy. \n1. Professional course :- Rs. 180/- For Each Year (w.e.f. 09-Jan-2020) \nFees for Transcript is Rs. 180/- for each year of professional courses under the faculties of Medicine, Homoeopathy, Ayurvedic Medicine, Pharmaceutical Sciences, Engineering, Management, Law, Education, Physical Education, & Applied Courses in Science such as Bio-information, Biotechnology, Health Sciences, Environmental Sciences, Electronics or such other courses designated by University as applied courses.\n2. Non-Professional course :- Rs. 140/- For Each Year (w.e.f. 09-Jan-2020)\nFees for Transcript is Rs.140/-. for each year of non-professional courses under the faculties of Arts and Fine Arts, Science, Mental, Moral & Social Sciences and Commerce."
+
+  utter_scholarship_process:
+  - text: "Follow below steps to apply for scholarships on mahadbt\n1.Go to the official website: mahadbt.maharashtra.gov.in.\n2. On the home page, click on the ‘new applicant registration’ link.\n3. Enter candidate's Aadhar card number in the asked field.\n4. After that, the candidate will receive a one-time password on their registered number.\n5. Enter the OTP in the asked field to verify the number and continue. All the registered information will be displayed.\n6. In case applicants do not have an Aadhar card, then they need to fill in all the details manually.\n7. After that, create a username and password for the Mahadbt scholarship 2023.\n8. Enter your mobile number and password and verify it.\n9.  Now go to Mahadbt login and enter credentials. Fill in the captcha shown on screen.\n10. On scholarship dashboard of the aaple sarkar dbt portal, all the eligible scholarships will be displayed.\n11. Fill in all the required details from the profile section.\n12. Fill in all the asked details such as bank details, educational qualification, address, etc.\n13. After that, Upload the scanned copy of the required documents on Mahadbtmahait gov in.\n14. Now on the login dashboard, click on the apply button to apply for the mahadbt scholarship. "
+
+  utter_migration:
+  - text: "Follow below steps to apply for Migration Certificate\n 1. To fill up Online Migration form Student need to click on Create Account option on university website \n link for creating account - https://bcud.unipune.ac.in/CERTIFICATE/GeneralPages/Signup.aspx.\n2. When you Signup for Migration click on Migration Certificate Link.\n3.After filling online form click on save button.\n4. Click on print preview link to download application and challan. \n refer this link- \nhttps://bcud.unipune.ac.in/root/Files/Migration/Mig_online.html"
+
+  utter_migration_fee:
+  - text: "The fee for filling the university migration form is Rs. 600. Please ensure to make the payment through the designated payment portal provided during the form submission process. \nIf you have any further questions or need assistance with the payment process, feel free to ask!"
+
+  utter_migration_form_duration:
+  - text: "The department will dispatch your migration certificate to your registered address within 15 days through Speed Post. You'll receive it shortly. If you have any further questions or concerns, feel free to ask."
+
+  utter_scholarship_eligibility:
+  - text: "To be eligible for the Savitribai Phule Scholarship, applicants must meet certain criteria, which may vary based on the specific scholarship program and category. \nHere are some common eligibility criteria:\n1. Belonging to socially and economically marginalized communities.\n2. Pursuing undergraduate or postgraduate courses from recognized institutions.\n3. Meeting the prescribed academic performance standards.\n4. Fulfilling the income criteria set by the scholarship program.\n5. Providing necessary documentation and certificates as proof of eligibility"
+
+  utter_phd_registration:
+  - text: "1. Choose your research area and create a my FindAPhD account for easier navigation.\n2. Decide whether you want a predesigned project or to propose your own.\n3. Contact prospective supervisors to discuss your research ideas.\n4. Check the entry requirements for the chosen institution or project.\n5. Examine the fees and explore potential funding options.\n6. Gather required documents, including CV, personal statement, and research proposal.\n7. Be aware of application deadlines and submit your application through the university's portal.\nFeel free to ask if you have more questions or need further assistance!"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

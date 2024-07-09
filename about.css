@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(to right,#ffffff25,#000000a0 50%),url("../images/uni1.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-n
+{
+    background: linear-gradient(#000000,#333333 100%);
+    color: #fff !important;
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 1rem;
+}
+

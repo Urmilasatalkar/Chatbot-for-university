@@ -1,0 +1,105 @@
+body{
+  background-image: linear-gradient(to right,#ffffff25,#000000a0 50%),url("../images/uni1.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .chat-container .chatroom--input input {
+    width: 80% !important;
+    padding: 8px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    margin: 8px !important;
+    box-sizing: border-box !important;
+  }
+
+  .chat-container .chatroom--input button {
+    width: 18% !important;
+    padding: 8px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    margin: 8px !important;
+    cursor: pointer !important;
+    background-color: #007BFF !important; /* Change the background color to blue */
+    color: white !important;
+    box-sizing: border-box !important;
+  }
+
+.chat-container{
+    /* background: linear-gradient(rgba(128, 0, 128, 0.727),rgba(255, 255, 255, 0.516)); */
+    background: linear-gradient(rgb(0, 94, 128), rgba(255, 255, 255, 0.142));
+    
+}
+.navbar-n
+{
+  background: linear-gradient(#000000,#333333 100%);
+  color: #fff !important;
+  /* font-family: 'Playfair Display', serif; */
+  font-size: 1rem;
+}
+.uni-img{
+    width: 80%;
+    height: 40%;
+    margin: 10px auto 10px auto;
+    /* background-image: linear-gradient(to right,#ffffff25,#000000 50%),url("../images/uni1.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 10px;
+    text-align: end;
+    padding-top: 2rem ;
+    padding-bottom:1rem ;
+
+}
+.content1{
+    height: 100%;
+    width: 50%; 
+    margin-right:0px;
+}
+.uni-img h1{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: #fff;
+    font-style:
+}
+.uni-img p{
+    color: #fff;
+    font-size: 1rem ;
+}
+.text1
+{
+    width: 20rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-left: 20rem;
+    text-align: justify;
+    color: #fff;
+    /* border: solid 1px #fff ; */
+    border-radius: 10px;
+    background: linear-gradient(rgb(0, 94, 128), rgba(255, 255, 255, 0.142));
+
+}
+
+.text1 h4{
+  margin: 5px auto 5px auto;
+  text-align: center;
+}

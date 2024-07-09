@@ -1,0 +1,149 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: tell weather
+  steps:
+    - intent: weather
+    - action: utter_weather
+
+- story: tell creators
+  steps:
+    -  intent: creators
+    -  action: utter_creators
+
+- story: tell courses
+  steps:
+    -  intent: courses
+    -  action: utter_courses
+    -  action: utter_courses_more
+
+- story: tell college_hours
+  steps:
+    - intent: College_Hours
+    - action: utter_College_Hours
+
+- story: tell fees
+  steps:
+    -  intent: fees
+    -  action: utter_fees
+
+- story: tell college_facilities
+  steps:
+    -  intent: college_facilities
+    -  action: utter_college_facilities
+
+- story: tell placements
+  steps:
+    -  intent: placement
+    -  action: utter_placement
+    -  action: utter_more_about_placement
+
+- story: tell cutoff
+  steps:
+    -  intent: cutoff
+    -  action: utter_cutoff
+
+- story: tell hostel_fees
+  steps:
+    -  intent: hostel_fees
+    -  action: utter_hostel_fees
+
+- story: get lost_marksheet
+  steps:
+    - intent: lost_marksheet
+    - action: utter_lost_marksheet
+
+- story: get certification_recovery_fees
+  steps:
+    - intent: certification_recovery_fees
+    - action: utter_certification_recovery_fees
+
+- story: get scholarships
+  steps:
+    - intent: scholarships
+    - action: utter_scholarships
+
+- story: get scholarships_documents
+  steps:
+    - intent: scholarships_documents
+    - action: utter_scholarships_documents
+
+- story: get result
+  steps:
+    - intent: result
+    - action: utter_result
+
+- story: get re-evaluation
+  steps:
+    - intent: re-evaluation
+    - action: utter_re-evaluation
+
+- story: get transcript
+  steps:
+    - intent: transcript
+    - action: utter_transcript
+
+- story: get transcript_fees
+  steps:
+    - intent: transcript_fees
+    - action: utter_transcript_fees
+
+- story: get scholarship_process
+  steps:
+    - intent: scholarship_process
+    - action: utter_scholarship_process
+
+- story: tell migration
+  steps:
+    -  intent: migration
+    -  action: utter_migration
+
+- story: tell migration_fee
+  steps:
+    -  intent: migration_fee
+    -  action: utter_migration_fee
+
+- story: tell migration_form_duration
+  steps:
+    -  intent: migration_form_duration
+    -  action: utter_migration_form_duration
+
+- story: tell scholarship_eligibility
+  steps:
+    -  intent: scholarship_eligibility
+    -  action: utter_scholarship_eligibility
+
+- story: tell phd_registration
+  steps:
+    -  intent: phd_registration
+    -  action: utter_phd_registration
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+

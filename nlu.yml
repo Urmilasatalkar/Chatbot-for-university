@@ -1,0 +1,511 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - good night
+    - how are you?
+    - hola
+    - Namaste
+    - what's up
+
+- intent: goodbye
+  examples: |
+    - cu
+    - cya
+    - see you
+    - bye bye
+    - talk to you later
+    - ttyl
+    - i got to go
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - okay
+    - ok
+    - yeah
+    - sure
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - not
+    - nothing
+    - neither
+    - nor
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: weather
+  examples: |
+    - how is the weather today ?
+    - how is tomorrows weather ?
+    - weather
+    - what is the weather 
+    - tell me the weather
+
+- intent: creators
+  examples: |
+    - what is the name of your developers
+    - what is the name of your developers
+    - who created you
+    - your developers
+    - your creators
+    - who are your developers
+    - developers
+    - you are made by
+    - you are made by whom
+    - who created you
+    - who create you
+    - creators
+    - who made you
+    - who designed you
+
+- intent: College_Hours
+  examples: |
+    - Timing of college
+    - What is college timing
+    - working days
+    - when are you guys open
+    - what are your working hours
+    - when college is open
+    - working hours
+    - college timings
+    - what about college timings
+    - what are college working hours
+    - is college open on saturday
+    - tell something about college timing
+    - tell me about college working days
+    - when should I come to college
+    - what is the college hours
+    - when should i come to college
+    - when should i attend college
+    - what will be college timings
+    - what is my colege time
+    - timing college
+
+- intent: courses
+  examples: |
+    - list of courses
+    - list of courses offered
+    - list of courses offered in university
+    - list of courses offered in college
+    - what are the courses offered by you
+    - what are the courses offered by your college
+    - what are the courses offered by your university
+    - courses
+    - courses?
+    - courses offered
+    - courses offered in sanjivani college of engineering
+    - courses you offer
+    - branches?
+    - courses available at university
+    - [branches](category) available at your college?
+    - what are the courses in university?
+    - what are branches in university?
+    - branches available in university
+    - can you tell me the courses available in university
+    - can you tell me the branches available in university
+    - [branch](category)
+    - computer engineering
+    - computer
+    - Computer engineering?
+    - it
+    - IT
+    - Information Technology
+    - AI/Ml
+    - Data science
+    - Web devlopment
+    - cloud
+    - devops
+    - Mechanical engineering
+    - Civil engineering
+    - Structral
+    - Structural engineering
+    - Mechatronics
+    - Mechatronics engineering
+    - Civil
+    - Mech
+    - Mechanical
+    - Core branches
+    - Electrical
+    - electrical engineering
+    - ece
+    - electronics
+    - electronics and computer engineering
+
+- intent: fees
+  examples: |
+    - information about fees
+    - tell me the fees
+    - fee structure
+    - college fees
+    - course fees
+    - fee per course
+    - fee per semester
+    - what is the fee for each semester
+    - what is the fees for each year
+    - what is fee
+    - what is the fees
+    - how much is the fees
+    - is the fee structure same for all years
+    - about the fees
+    - tell me about the fees
+    - tell me something about the fees
+    - What is the fees of hostel
+    - how much is the fees
+
+- intent: hostel_fees
+  examples: |
+    - how much is the hostel fees
+    - hostel fees
+    - girls hostel fee
+    - girls hostel fees
+    - college hostel fees
+    - college and hostel fees
+    - college and hostel fees per year
+    - boys hostel fees
+    - boys hostel fee
+    - college hostel fees for boys
+    - college hostel fee for girls
+    - tell me about hostel fees
+    - tell me about hostel fees for boys and girls
+
+- intent: college_facilities
+  examples: |
+    - what facilities college provide
+    - College facility
+    - What are college facilities
+    - facilities
+    - facilities provided
+
+- intent: placement
+  examples: |
+    - What is college placement
+    - Which companies visit in college
+    - What is average package
+    - companies visit
+    - package
+    - About placement
+    - recruitment
+    - companies
+    - basic package
+    - placement assistance
+    - average package in your college
+    - highest package 
+ 
+- intent: cutoff
+  examples: |
+    - What is the admission cut-off for Computer Engineering?
+    - cutoff
+    - cut-off
+    - What was the cut-off for the engineering?
+    - Tell me the cut-off for Mechanical Engineering in the previous year
+    - Can you predict the expected cut-off for the upcoming admissions?
+    - How are the cut-offs different for students applying through special quotas?
+    - What is the admission cut-off for Mechanical Engineering?
+    - What is the admission cut-off for electronics Engineering?
+    - What is the admission cut-off for Mechatronics Engineering?
+    - What is the admission cut-off for IT Engineering?
+    - What is the admission cut-off for Electrical Engineering?
+    - What is the admission cut-off for Civil Engineering?
+    - What is the admission cut-off for Structural Engineering?
+    - Give me course wise cut-off
+    - coursewise cut-off
+
+- intent: lost_marksheet
+  examples: |
+    - marksheet lost
+    - I lost my marksheet. What should I do?
+    - How can I get a replacement for my lost mark sheet?
+    - I lost all my academic documents. What's the procedure for recovery?
+    - How can I recover my lost documents?
+    - documents recovery
+    - lost marksheet enquiry
+    - How do I verify my identity for the mark sheet replacement process?
+    - How long does it take to get a duplicate mark sheet?
+    - I'm having trouble with the lost mark sheet process. Can you help?
+
+- intent: certification_recovery_fees
+  examples: |
+    - what is the fee for recovering any certificate
+    - What is the fee for recovering a lost certification?
+    - How can I pay the certification recovery fee?
+    - certification recovery fee
+    - What is the application fee for any certification?
+    - what is certification fee
+    - what is fee for getting any certification
+    - what is fee for recovering any certification
+    - how much is the fee for recovering any certification
+    - how much is the fee for recovering any certificate
+    - how much is the fee for certificate recovery
+
+- intent: scholarships
+  examples: |
+    - Do you have scholarships for incoming freshmen or first-year students?
+    - Tell me about scholarships for graduate studies.
+    - Are there scholarships for students pursuing specific majors or disciplines?
+    - Are there scholarships for students pursuing specific course or certification?
+    - Do you have scholarships for research or innovation projects?
+    - Do you provide any scolarships for students
+    - Do you have scholarships 
+    - any scholorships
+    - scholarship
+    - scholarships
+    - Tell me about scholarships for underrepresented minorities.
+    - What scholarships does the university offer for academic excellence
+    - do you have any scholarship program
+
+- intent: scholarships_documents
+  examples: |
+    - what are the documents required for application to scholarship
+    - which documents are necessary for scholarship
+    - what are the requirements for scholarship application
+    - what are the different documents for scholarships
+    - documents 
+    - scholarship documents
+    - documents for scholarships
+    - docs
+    - scholarships docs
+    - necessary things to apply for scholarship
+    - necessary documents for scholarships
+
+- intent: result
+  examples: |
+    - result
+    - view result
+    - process to view result
+    - procedure to get result
+    - procedure to view my result
+    - process to view result on university website
+    - How can I check my semester results?
+    - Is it possible to download my marksheet online?
+    - Where can I find the result?
+    - Can you guide me through the steps to access my results online?
+    - What is the process for viewing exam results?
+    - Are results available online? How can I access them?
+    - How do I navigate the result portal?
+    - Can I check results through the student portal?
+
+- intent: re-evaluation
+  examples: | 
+    - Am I eligible for re-evaluation?
+    - How does the re-evaluation process work?
+    - How many subjects can I apply for re-evaluation?
+    - What are the fees for re-evaluation?
+    - How can I pay the re-evaluation fees?
+    - What is the process for verification of marks?
+    - Can I submit one application for multiple examinations?
+    - reevaluation
+    - reevaluation process
+    - re-evaluation
+    - how to apply for re-evaluation
+    - rechecking
+    - how to apply for rechecking
+    - what is the process of reckecking
+    - tell me the process of rechecking
+    - tell me the process of reevaluation
+
+- intent: transcript
+  examples: | 
+    - transcripts
+    - transcript application
+    - how to apply for transcripts
+    - transcript application process
+    - How can I apply for transcripts?
+    - What documents do I need to submit for transcript application?
+    - Where can I get the transcript application form?"
+    - give me transcript application process
+    - transcript application process
+    - How do I start the transcript application process?
+    - Where should I submit the completed transcript application form?
+    - Where to submit the completed transcript application form?
+    - What information is needed for the transcript application?
+
+- intent: transcript_fees
+  examples: |     
+    - What are the fees associated with obtaining a transcript?
+    - transcript fees
+    - fees for transcript
+    - fees for transcript application
+    - give me fee details of transcript application
+    - what fees are required to apply for transcript
+    - is there any fee to apply for transcript
+    - How can I pay for my transcript?
+    - Is the transcript fee the same for all services, or does it vary?
+    - If I need my transcript urgently, what are the fees for expedited processing
+    - Is the transcript fee refundable if I decide not to proceed with the application?
+    - Are there any fee waivers or discounts available for transcript services?
+    - How much does it cost to request an international transcript?
+    - What is the fee for requesting additional copies of my transcript?
+    
+- intent: scholarship_process
+  examples: |  
+    - scholarship application process
+    - scholarship apply
+    - how to apply for scholarship
+    - give me the procedure to apply for scholarship
+    - can you give me the procedure to apply for scholarship
+    - scholarship process
+    - process to apply for scholarship
+    - give process to to apply for scholarship
+    - tell me procedure to apply for scholarship
+    - what is the process to apply for scholarship
+    - what process should i follow for scholarship application
+    - guide me procedure for scholarship application
+    - scholarship application procedure
+    - scholarship application steps
+    - steps to apply for scholarship
+
+- intent: migration
+  examples: |
+    - how to fill university migration form
+    - procedure to fill university migration form
+    - migration form filling
+    - migration form
+    - how can i fill migration form
+    - give me procedure to fill up migration 
+    - tell me steps to fill mirgration form
+    - how to get migration certification
+    - migration certificate application procedure
+    - step-by-step process to fill out the migration form.
+    - migration form filling stepswise procedure
+    - process for migration form filling
+    - what is process for applying migration form
+
+- intent: migration_fee
+  examples: |
+    - migration application fees
+    - fee for applying migration form 
+    - what is fee for migration certificate
+    - fees for applying migration certificate
+    - is there any fee for applying migration certificate
+    - what will be the fees to apply for migration certificate
+    - how much is the fee for migration form application
+    - fees for application for migration form 
+    - fees to fill application form 
+    - migration form filling fees
+    - migration fees
+    - fees for migration form
+    - fees for migration
+
+- intent: migration_form_duration
+  examples: |
+    - when will i get my migration certificate
+    - Will I be notified when my migration certificate is dispatched?
+    - Is there an option for in-person collection of the migration certificate?
+    - After processing, how long does it take for the university to dispatch the migration certificate?
+    - How will I know if the university has received my migration certificate application?
+    - How long does it usually take to receive the migration certificate?
+    - when will i receive my migration certificate
+    - how many days are required to receive migration certificate
+    - in how much days i will receive migration certificate
+    - how long does it take to receive migration certificate
+    - duration to receive migration certificate
+
+- intent: scholarship_eligibility
+  examples: |   
+    - scholarship Eligibility 
+    - scholarship Eligibility criteria
+    - Eligibility criteria for scholarship
+    - what is Eligibility criteria for scholarship
+    - tell me Eligibility criteria for scholarship
+    - give Eligibility criteria for scholarship
+    - who can apply for scholarship
+    - who is eligible for scholarship
+    - what is scholarship Eligibility criteria 
+    - Eligibility criteria for scholarship at university
+    
+- intent: phd_registration
+  examples: | 
+    - How do I register for a PhD at the university?
+    - What are the steps to enroll in a PhD program?
+    - phd registration
+    - phd registration steps
+    - what are PHD registration steps at your university
+    - guide me steps to apply at your university for PHD
+    - PHD
+    - phd
+    - Can you guide me through the process of applying for a PhD?
+    - I'm interested in pursuing a PhD. What's the procedure for registration?
+    - How can I start the registration process for a PhD program?
+    - What steps do I need to follow to get into a PhD program?
+    - Could you outline the process for PhD registration?
+    - What's the procedure for PhD admission at the university?
+    - I'm considering a PhD. Can you explain the steps to join?
+    - What's the roadmap for applying to a PhD program?
+   
+    
